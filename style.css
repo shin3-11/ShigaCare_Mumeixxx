@@ -9,7 +9,7 @@ header{
 }
 .main-box{
     height: fit-content;
-    margin-top: 10rem;
+    margin-top: 5rem;
     border-radius: 50px;
     padding: 7%;
     box-shadow: 25px 25px 5px #00000052;
@@ -17,7 +17,7 @@ header{
 .main-box p{
     font-size: 1.5vw;
     font-weight: bold;
-    letter-spacing: 9px;
+    letter-spacing: 7px;
     line-height: 4vw;
 }
 .movie{
@@ -66,25 +66,25 @@ footer{
 }
 .foot{
     padding-top: 15% !important;
-    padding-bottom: 15% !important;
+    padding-bottom: 10% !important;
 }
 .foot h1{
-    font-size: 3.5vw;
+    font-size: 3vw;
     font-weight: bold;
     letter-spacing: 5px;
     line-height: 3vw;
 }
 .foot p{
-    font-size: 1.3vw;
-    letter-spacing: 3px;
-    line-height: 3vw;
+    font-size: 1vw;
+    letter-spacing: 2px;
+    line-height: 2vw;
     border-top: solid 1px #fff;
     border-bottom: solid 1px #fff;
 }
 .links a{
     color: #fff;
-    text-decoration: none;
-    font-size: 1.3vw;
+    font-size: 1vw;
+    /* text-decoration: none; */
 }
 
 @media screen and (max-width:991px) {
@@ -169,7 +169,7 @@ footer{
 }
 .links a{
     color: #fff;
-    text-decoration: none;
-    font-size: 3.3vw;
+    font-size: 3.2vw;
+    /* text-decoration: none; */
 }
 }
