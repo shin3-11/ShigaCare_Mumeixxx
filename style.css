@@ -31,34 +31,6 @@ iframe{
     aspect-ratio: 16 / 9;
     border: solid 10px #0e52a4;
 }
-.movie.pv::after {
-  display: none;
-}
-#play {
-  display: inline-block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  width: 9rem;
-  height: 9rem;
-  background-color: #12bff7;
-  border-radius: 50%;
-  cursor: pointer;
-  opacity: .95;
-}
-#play:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 35%;
-  transform: translateY(-50%);
-  width: 0px;
-  height: 0px;
-  border: 2rem solid transparent;
-  border-left: 3rem solid #fff;
-  box-sizing: border-box;
-}
 footer{
     background-image: url(img/foot.png);
     background-size: cover;
@@ -116,34 +88,6 @@ iframe{
     height: auto;
     aspect-ratio: 16 / 9;
     border: solid 10px #0e52a4;
-}
-.movie.pv::after {
-  display: none;
-}
-#play {
-  display: inline-block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  width: 5rem;
-  height: 5rem;
-  background-color: #12bff7;
-  border-radius: 50%;
-  cursor: pointer;
-  opacity: .95;
-}
-#play:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 35%;
-  transform: translateY(-50%);
-  width: 0px;
-  height: 0px;
-  border: 1rem solid transparent;
-  border-left: 1.5rem solid #fff;
-  box-sizing: border-box;
 }
 footer{
     background-image: url(img/foot.png);
